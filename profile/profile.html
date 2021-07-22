@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="profile.css">
+    <title>Pacific Calm - Official Website</title>
+</head>
+<body>
+    <div id="root">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../home/home.html"><img src="../home/img/logo.svg" alt="logo"></a>
+                    </li>
+                    <li><a href="../home/home.html">Home</a></li>
+                    <li><a href="../signin/signin.html">Sign Out</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="content">
+            <div id="profile_card">
+                <div id="pic_wrapper"><img id="profile_pic" src="../profile/img/user_pic.jpg" alt="profile_picture"></div>
+                <span id="username">User's Name</span>
+                <div id="user_info">
+                    <label for="first_name">First Name</label>
+                    <input type="text" readonly name="first_name" id="first_name">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" readonly name="last_name" id="last_name">
+                    <label for="email">Email Address</label>
+                    <input type="email" readonly name="email" id="email">
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" readonly name="tel" id="phone_number">
+                    <label for="birth_date">Birth Date</label>
+                    <input type="text" readonly name="birth_date" id="birth_date">
+                </div>
+            </div>
+
+            <button id="editBtn" type="button">Edit Profile</button>
+            <a id="delete_account" href="#">Delete my account</a>
+        </section>
+
+        <aside id="sidebar">
+            <ul>
+                <li><a href="../profile/profile.html"><i class="fas fa-user-alt"></i>Profile</a></li>
+                <li><a href="../posts/posts.html"><i class="far fa-newspaper"></i>Posts</a></li>
+            </ul>
+        </aside>
+
+        <footer>
+            <ul>
+                <li id="socials">
+                    <a href="../home/home.html"><i class="fab fa-facebook-square"></i></a>
+                    <a href="../home/home.html"><i class="fab fa-twitter-square"></i></a>
+                    <a href="../home/home.html"><i class="fas fa-envelope-square"></i></a>
+                </li>
+                <li>Pacific Calm &copy;</li>
+                <li id="navigation">
+                    <a href="../home/home.html">Home</a>
+                    <a href="../profile/profile.html">Profile</a>
+                    <a href="../posts/posts.html">Posts</a>
+                    <a href="../signin/signin.html">Sign Out</a>
+                </li>
+            </ul>
+
+        </footer>
+
+
+
+
+
+
+    </div>
+</body>
+</html>
